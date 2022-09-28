@@ -2,3 +2,21 @@ label {
     display: block;
     margin-top: 1em;
 }
+
+input:hover, select:hover {
+    border-color: transparent;
+    box-shadow:0 0 0 5px rgb(22, 42, 153);
+} 
+
+.main-title {
+    font-family: "Lucida Console", "Courier New", monospace;
+}  
+
+.screen {
+    background-color: rgb(180, 230, 173);
+}
+
+.button:hover, select:hover {
+    border-color: transparent;
+    box-shadow:0 0 0 5px rgb(22, 42, 153);
+}
